@@ -3,7 +3,7 @@ const MongoClient = mongodb.MongoClient;
 
 const mongoConnect = callback => {
   MongoClient.connect(
-    'mongodb+srv://kanukolulakshmi:<SObfhGYUQwufOrR7>@cluster0.ncpjwfw.mongodb.net/?retryWrites=true&w=majority'
+    'mongodb+srv://kanukolulakshmi:pFpaPRxQHEq04tHh@cluster0.ulntole.mongodb.net/?retryWrites=true&w=majority'
   )
     .then(client => {
       console.log('Connected!');
